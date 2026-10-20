@@ -1,0 +1,4 @@
+interface:
+  display_name: "生物分子 MD：体系适配与运行"
+  short_description: "先确认体系与力场，再生成有依据的参数计划，经确认后运行并验证"
+  default_prompt: "使用 $biomolecular-md 评估我的体系和候选力场，先给出体系与模型决策卡；确认后制定具体 MD 参数与计划卡，经确认再运行。"
